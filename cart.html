@@ -1,0 +1,169 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f74614558d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="asset/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a   href="shop.html">Shop</a></li>
+                <li><a  href="Blog.html">Blog</a></li>
+                <li><a  href="About.html">About</a></li>
+                <li><a  class="active" href="Contact.html">Contact</a></li>
+                <li><a href="cart.html" class="remove-bag"> <i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" class="active" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <!--  last work -->
+           <div id="mobile">
+              <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+              <i id="bar" class="fas fa-outdent" ></i>
+           </div>
+    </section>
+
+    <section id="page-header" class="about-page">  
+        <h2>#Let's_talk</h2>
+        <p>LEAVE A MESSAGE,We love to hear from you!!</p>
+
+    </section>
+    
+    <section id="cart"   class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr class="table-box">
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quanlity</td>
+                    <td>subtotal</td>
+                </tr>
+                <tbody >
+                    <tr class="icons0">
+                        <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                        <td><img src="asset/product/f1.jpg" alt=""></td>
+                        <td>Carton Astronout T-shirt</td>
+                        <td>$119.19</td>
+                        <td><input type="number" value="1"></td>
+                         <td>$119.19</td>
+                    </tr>
+                    <tr class="icons0">
+                        <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                        <td><img src="asset/product/f2.jpg" alt=""></td>
+                        <td>Carton Astronout T-shirt</td>
+                        <td>$139.19</td>
+                        <td><input type="number" value="1"></td>
+                         <td>$139.19</td>
+                    </tr>
+                    <tr class="icons0">
+                        <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                        <td><img src="asset/product/f3.jpg" alt=""></td>
+                        <td>Carton Astronout T-shirt</td>
+                        <td>$159.19</td>
+                        <td><input type="number" value="1"></td>
+                         <td>$159.19</td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+
+
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+            <tr>
+                <td>Cart Subtotals</td>
+                <td>$335</td>
+            </tr>
+            <tr>
+                <td>Shippinge</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                 <td><strong>Totals</strong></td>
+                 <td><strong>$335</strong></td>
+          
+            </tr>
+              </table>
+              <button class="normal"> Proceed to Checkout</button>
+        </div>
+    </section>
+    
+
+
+     <footer class="section-p1" >
+              <div class="col">
+                  <img  class="logo" src="asset/logo.png" alt="">
+                  <h4>Contact</h4>
+                  <p><strong>Address :</strong>562 Wellington Road. Street 32. San Francisco</p>
+                  <p><strong>Phone :</strong>+01 2222 365 /(+91) 01 2345 6789</p>
+                  <p> <strong>Hours :</strong>10:00 - 18:00. Mon - Sat</p>
+              
+                 <div class="follow">
+                   <h4>Follow Us</h4>
+                 </div>
+                 <div class="icons">
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-pinterest-p"></i>
+                  <i class="fab fa-youtube"></i>
+                 </div>
+              </div>
+
+               <div class="col">
+                <h4>About</h4>
+                <a href="#">About us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact Us</a>
+               </div>
+               <div class="col">
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+               </div>
+
+               <div class="col install">
+                 <h4>Install App</h4>
+                  <p>From App Store or Google Play</p>
+                  <div class="row">
+                    <img src="asset/pay/app.jpg" alt="">
+                    <img src="asset/pay/play.jpg" alt="">
+                  </div>
+                  <p>Secured Payment Gateways</p>
+                  <img src="asset/pay/pay.png" alt="">
+               </div>
+
+                <div class="copyrights">
+                  <p>© 2021, Tech2 etc - HTML CSS Ecommerce Template</p>
+                </div>
+               
+     </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
